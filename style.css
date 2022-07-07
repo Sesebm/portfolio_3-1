@@ -151,6 +151,15 @@ img {
   position: absolute;
   left: 30px;
 }
+.absoluto2{
+  position: absolute;
+  right: 30px;
+  
+}
+
+.parrafoabout{
+  width: 80%;
+}
 
 .soyjose {
   display: grid;
