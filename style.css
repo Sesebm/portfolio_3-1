@@ -95,7 +95,7 @@ a {
 
 .container {
   margin-left: 5%;
-  width: 93vw;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   /*  background-color: blueviolet; */
@@ -119,24 +119,26 @@ a {
 .imagensoy {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .imagensoy img{
-  position: absolute;
+
+position: absolute;
 
 }
 .atras{
   z-index: 2;
-  object-fit: contain;
-  width: 45%;
-  height: 80%;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
 }
 
 .delante{
   z-index: 4;
   object-fit:cover;
-  width: 45%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
 
 }
 
@@ -318,6 +320,8 @@ justify-content: center;
   color: #34b0be;
   font-size: 200%;
 
+  width: 15vw;
+
 }
 
 .barra {
@@ -460,4 +464,121 @@ footer {
   .menu>li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+
+  .mini{
+    font-size: 10px;
+    color: #adadad;
+  }
+  .peque{
+    font-size: 12px;
+  }
+  .mediano {
+    font-size: 25px;
+    color: #ff4f6f;
+  }
+  .medianegro{
+    font-size: 20px;
+    color: #000000;
+    margin: auto;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  .grande {
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .vectores {
+    width: 28px;
+    height: 28px;
+  
+    margin-right: 2%;
+    display: inline-block;
+    border: 1px solid #34b0be;
+    padding: 10px;
+    border-radius: 100%;
+    text-align: center;
+  }
+
+  .contactame {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #ff4f6f;
+    border-radius: 0em 4em 4em 0em;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    font-size: 12px;}
+.grid1 {
+      max-width: 90%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .soyjose {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      padding-left: 2%;
+      grid-row-gap: 8px;
+      align-items: center;}
+      .listahabi {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        /* height: 50vh; */
+        row-gap: 10%;
+        column-gap: 10%;
+}
+.numero {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  color: #34b0be;
+  font-size: 200%;
+
+  width: 20vw;
+
+}
+
+.listaportafolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 90%;
+  gap: 4%;
+}
+.contac1 {
+  font-size: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  text-align: center;
+  padding-bottom: 05%;
+  padding-top: 05%;
+  padding-left: 0%;
+  padding-right: 0%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  /*     justify-self: left; */
+  grid-area: a;
+}
+.contac2 {
+  font-size: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  text-align: center;
+  padding-bottom: 05%;
+  padding-top: 05%;
+  padding-left: 05%;
+  padding-right: 5%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  /*     justify-self: left; */
+  grid-area: b;
+
+}
 }
